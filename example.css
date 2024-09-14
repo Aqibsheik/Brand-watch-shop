@@ -1,0 +1,211 @@
+header{
+    background-color:darkgray ;
+    color: rgb(18, 90, 163);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+}
+.image_1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation{
+    padding: 10px;
+    height: 0%;
+    width: 50%;
+    padding-bottom: 0%;
+    background-color:dark grey;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+ul li{
+    float: left;
+}
+
+li a{
+    color: burlywood;
+    text-align: center;
+    padding:0%;
+    display: block;
+    }
+
+ul li a:hover{
+        background-color:darkgray;
+    }
+
+.section{
+    text-align: center;
+}
+
+#watch-form{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap:10px;
+    max-width: 400px;
+    margin: auto;
+
+}
+
+label{
+    text-align: right;
+    padding: 10px;
+}
+
+input{
+    width:100%;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+/*Element selector*/
+/*
+h1{
+    color: darkorchid;
+}
+/* Class selector */
+/*
+.about{
+    color: rgb(63, 166, 102);
+    background-color: black;
+}
+ /* ID selector */
+ /*
+#home{
+    color: aqua;
+    background-color: black;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:darkgray;
+    margin:20px;
+    padding:10px ;
+   /* position: fixed; */
+  /* width: 100%;
+   top:0%;
+
+}  */
+
+
+.navigation ul{
+   display: flex;
+   list-style-type: none;
+   background-color: darkgray;
+   /*position :fixed; */
+   top:20%;
+   width: 100%;
+   margin-left:18px;
+   
+}
+
+.navigation ul li{
+   margin-right: 50px;
+   
+}
+
+.navigation ul li a{
+   text-decoration: none;
+   color: white;
+
+}
+
+.navigation ul li a:hover{
+   color:blue;
+   background-color: antiquewhite;
+}
+
+
+main{
+   background-color: aquamarine;
+   margin: 20px;
+   border-radius: 10px;
+   margin-top: 10px;
+}
+
+.section h1{
+   text-align: center;
+}
+
+
+form{
+   display:grid;
+   grid-template-columns: 200px 200px;
+   row-gap: 15px;
+   justify-content: center;
+   padding: 20px;
+  
+   }
+
+.submit_button{
+   cursor: pointer;
+   border: none;
+   background-color: burlywood;
+   color:black;
+}
+
+footer{
+   display: flex;
+   background-color: darkgrey;
+}
+footer h1{
+   color:darkgreen;
+   padding:20px
+}
+
+footer h1{
+   padding:20px;
+}
+footer h4{
+   padding: 10px;
+}
+footer section{
+   border-right:1px solid black ;
+}
+
+p{
+    padding: 10%;
+}
+
+
+
+
+footer section{
+    border-right: 1px solid gray;
+}
+
+#watches-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+}
+
+
+
+/* card style */
+.watch-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.watch{
+    border:2px solid grey;
+    padding:10px;
+    margin:10px;
+    border-radius: 10px;
+    background-color: grey;
+    width: 200px;
+ }
+ 
